@@ -1,0 +1,33 @@
+.section1{
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+    &__left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+        &__img{
+            width: 300px;
+        }
+        p{
+            width: 450px;
+            color: gray;
+        }
+        button{
+            width: 200px;
+            background: none;
+            color:#BC5148;
+            border: 2px solid #BC5148;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+    &__rigt{
+        width: 50%;
+    }
+}
+.accardion{
+    margin: 10px 0;
+    width: 500px;
+}
